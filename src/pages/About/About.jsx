@@ -20,7 +20,7 @@ const About = () => {
 
         <section className="about-hero">
           <div className="about-hero-img">
-            <img src="/about/medaly1.jpeg" alt="" />
+            <img src="/about/daly.jpg" alt="" />
           </div>
         </section>
 
@@ -43,7 +43,7 @@ const About = () => {
         <section className="services">
           <div className="services-col">
             <div className="services-banner">
-              <img src="/about/services-banner.jpg" alt="" />
+              <img src="/about/driven.jpg" alt="" />
             </div>
             <p className="primary">Designed with Purpose</p>
           </div>
