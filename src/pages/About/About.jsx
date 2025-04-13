@@ -15,33 +15,27 @@ const About = () => {
       <div className="page about">
         <section className="about-header">
           <h1>Est</h1>
-          <h1>1997</h1>
+          <h1>1995</h1>
         </section>
 
         <section className="about-hero">
           <div className="about-hero-img">
-            <img src="/about/about-hero.jpg" alt="" />
+            <img src="/about/medaly1.jpg" alt="" />
           </div>
         </section>
 
         <section className="about-me-copy">
           <div className="about-me-copy-wrapper">
             <AnimatedCopy animateOnScroll={true} tag="h3">
-              I'm Nico  — a filmmaker drawn to human stories, quiet
-              moments, and the visual language of emotion. My work spans short
-              films, experimental pieces, and cinematic visuals.
+            I’m Med Ali — a digital creator and founder of KOYOTEC, a creative agency where design meets technology. I craft immersive web experiences that are visually striking, emotionally engaging, and built with precision.
             </AnimatedCopy>
 
             <AnimatedCopy animateOnScroll={true} tag="h3">
-              For me, filmmaking isn’t just about images — it’s about what those
-              images make us feel. I believe in subtlety, texture, and honesty
-              in storytelling.
+            For me, building digital experiences isn't just about beautiful visuals — it's about emotion, clarity, and storytelling. I believe in using animation, interactivity, and creative code to create memorable user journeys.
             </AnimatedCopy>
 
             <AnimatedCopy animateOnScroll={true} tag="h3">
-              Every project is a new collaboration, a new challenge, and a new
-              chance to create something meaningful. If it moves someone, even
-              for a second — it's done its job.
+            Each project is a new opportunity to innovate, inspire, and connect. Whether it's a portfolio, a brand site, or a digital campaign — I bring passion, detail, and a modern edge to every pixel.
             </AnimatedCopy>
           </div>
         </section>
@@ -51,40 +45,21 @@ const About = () => {
             <div className="services-banner">
               <img src="/about/services-banner.jpg" alt="" />
             </div>
-            <p className="primary">Crafted with Intention</p>
+            <p className="primary">Designed with Purpose</p>
           </div>
           <div className="services-col">
             <h4>
-              Every project is a chance to explore new visual language, push
-              creative boundaries, and tell stories that feel real. I approach
-              each film with care, precision, and purpose.
+            Every project is an opportunity to push boundaries — blending design, code, and strategy to tell impactful digital stories. I approach each build with creativity, precision, and innovation.
             </h4>
 
             <div className="services-list">
               <div className="service-list-row">
                 <div className="service-list-col">
-                  <h5>Filmmaking</h5>
+                  <h5>Web Design & Development</h5>
                 </div>
                 <div className="service-list-col">
                   <p>
-                    From short films to personal narratives, my work is driven
-                    by emotion and atmosphere. I handle direction,
-                    cinematography, and editing — crafting each piece with a
-                    filmmaker’s eye for mood, movement, and meaning.
-                  </p>
-                </div>
-              </div>
-
-              <div className="service-list-row">
-                <div className="service-list-col">
-                  <h5>Visual Storytelling</h5>
-                </div>
-                <div className="service-list-col">
-                  <p>
-                    I create visuals that speak — whether it’s a quiet moment or
-                    a bold idea. My work blends aesthetic choices with story
-                    clarity, making sure the emotional core always comes
-                    through.
+                  From sleek landing pages to fully custom websites, I design and build digital experiences using modern tools like React, Next.js, GSAP, and Tailwind — ensuring fast performance and visual flair.
                   </p>
                 </div>
               </div>
@@ -95,10 +70,18 @@ const About = () => {
                 </div>
                 <div className="service-list-col">
                   <p>
-                    From ideation to final cut, I guide the visual and narrative
-                    tone of every project. I bring a cohesive, cinematic vision
-                    that aligns story, style, and intention — grounded in
-                    authenticity.
+                  I lead projects with a strong creative vision — aligning brand identity, user experience, and visual storytelling to bring ideas to life across digital platforms.
+                  </p>
+                </div>
+              </div>
+
+              <div className="service-list-row">
+                <div className="service-list-col">
+                  <h5>Interactive & Motion Design</h5>
+                </div>
+                <div className="service-list-col">
+                  <p>
+                  I specialize in smooth, immersive animations using GSAP, ScrollTrigger, and Three.js — turning static interfaces into dynamic stories that engage users and leave a lasting impression.
                   </p>
                 </div>
               </div>
@@ -126,8 +109,7 @@ const About = () => {
               className="secondary"
               delay={0.5}
             >
-              My favorite stack includes Framer, Figma, and other cutting-edge
-              technologies to ensure seamless and dynamic designs.
+              I use a modern stack combining design precision and creative technology — from Figma to GSAP, always choosing tools that bring ideas to life with performance and emotion.
             </AnimatedCopy>
           </div>
 
@@ -137,45 +119,22 @@ const About = () => {
                 <div className="fav-tool-img">
                   <img src="/about/tool-1.jpg" alt="" />
                 </div>
-                <h4>DaVinci Resolve</h4>
-                <p className="primary sm">Color Grading</p>
+                <h4>Next.js</h4>
+                <p className="primary sm">App Routing & Performance</p>
               </div>
               <div className="fav-tool">
                 <div className="fav-tool-img">
                   <img src="/about/tool-2.jpg" alt="" />
                 </div>
-                <h4>Adobe Premiere Pro</h4>
-                <p className="primary sm">Video Editing</p>
+                <h4>GSAP</h4>
+                <p className="primary sm">Animations & Interactivity</p>
               </div>
               <div className="fav-tool">
                 <div className="fav-tool-img">
                   <img src="/about/tool-3.jpg" alt="" />
                 </div>
-                <h4>Blackmagic Pocket</h4>
-                <p className="primary sm">Cinematic Shooting</p>
-              </div>
-            </div>
-            <div className="fav-tools-list-row">
-              <div className="fav-tool">
-                <div className="fav-tool-img">
-                  <img src="/about/tool-4.jpg" alt="" />
-                </div>
-                <h4>ShotDeck</h4>
-                <p className="primary sm">Visual References</p>
-              </div>
-              <div className="fav-tool">
-                <div className="fav-tool-img">
-                  <img src="/about/tool-5.jpg" alt="" />
-                </div>
-                <h4>Frame.io</h4>
-                <p className="primary sm">Remote Collaboration</p>
-              </div>
-              <div className="fav-tool">
-                <div className="fav-tool-img">
-                  <img src="/about/tool-6.jpg" alt="" />
-                </div>
-                <h4>Celtx</h4>
-                <p className="primary sm">Scriptwriting Tool</p>
+                <h4>Figma</h4>
+                <p className="primary sm">UI Design & Prototyping</p>
               </div>
             </div>
           </div>
