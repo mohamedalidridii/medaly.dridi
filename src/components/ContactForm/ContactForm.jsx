@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactForm.css";
+import { Link } from "react-router";
 
 const ContactForm = () => {
 
@@ -36,7 +37,7 @@ const ContactForm = () => {
         </div>
 
         <div className="contact-form-col">
-          <div className="form-item">
+          {/* <div className="form-item">
             <input type="text" placeholder="Name" />
           </div>
 
@@ -46,11 +47,13 @@ const ContactForm = () => {
 
           <div className="form-item">
             <textarea type="text" rows={6} placeholder="Message" />
-          </div>
+          </div> */}
 
           <div className="form-item">
-            <button className="btn" disabled>Send Message</button>
-          </div>
+          <Link to="https://linktr.ee/medaly.dridi" className="btn">
+            Get in Touch &rarr;
+          </Link>
+$          </div>
         </div>
       </div>
     </div>
