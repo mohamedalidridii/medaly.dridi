@@ -224,7 +224,7 @@ const Home = () => {
           </div>
         </section>
 
-        <ContactForm />
+        {/* <ContactForm /> */}
         <Footer />
       </div>
     </ReactLenis>
