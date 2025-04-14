@@ -49,7 +49,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-item">
-            <button className="btn">Send Message</button>
+            <button className="btn" disabled>Send Message</button>
           </div>
         </div>
       </div>

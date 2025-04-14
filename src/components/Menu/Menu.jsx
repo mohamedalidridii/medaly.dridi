@@ -7,10 +7,11 @@ import { gsap } from "gsap";
 const Menu = () => {
   const menuLinks = [
     { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
     { path: "/work", label: "Impact" },
     { path: "/contact", label: "Contact" },
     // { path: "/faq", label: "FAQ" },
-{ path: "/about", label: "About" },
+
   ];
 
   const location = useLocation();

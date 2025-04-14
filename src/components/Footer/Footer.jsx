@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-row">
         <div className="footer-contact">
-          <h3>
+          <h4>
             Let’s Collaborate <br />
             mohamedali.dridi<span>@</span>koyotec.digital
-          </h3>
+          </h4>
 
           <p className="secondary">
           From building bold websites to launching creative digital campaigns — I’m always open to collaborating on innovative projects. Let’s create something impactful together.
@@ -28,10 +28,10 @@ const Footer = () => {
             <span>&#8594;</span>
           </Link>
 
-          {/* <Link to="/work" className="footer-nav-item">
+          <Link to="/work" className="footer-nav-item">
             <span>Work</span>
             <span>&#8594;</span>
-          </Link> */}
+          </Link>
 
           <Link to="/about" className="footer-nav-item">
             <span>About</span>
@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="footer-copyright-line">
           <p className="primary sm">&copy; Med Aly Dridi 2025</p>
-          <p className="primary sm">All things reserved to KOYOTEC.</p>
+          <p className="primary sm">All rights reserved to Med Ali Dridi</p>
         </div>
       </div>
     </div>
