@@ -1,4 +1,4 @@
-// import workList from "../../data/workList";
+import workList from "../../data/workList";
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -17,7 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 import Transition from "../../components/Transition/Transition";
 
 const Home = () => {
-  // const workItems = Array.isArray(workList) ? workList : [];
+  const workItems = Array.isArray(workList) ? workList : [];
   const stickyTitlesRef = useRef(null);
   const titlesRef = useRef([]);
   const stickyWorkHeaderRef = useRef(null);
@@ -66,7 +66,7 @@ const Home = () => {
           opacity: 0,
           scale: 0.75,
           duration: 0.3,
-          ease: "power2.out",
+          ease: "power3.out",
         },
         1
       )
@@ -171,17 +171,17 @@ const Home = () => {
           </h2>
         </section>
 
-        {/* <section ref={stickyWorkHeaderRef} className="sticky-work-header">
+        <section ref={stickyWorkHeaderRef} className="sticky-work-header">
           <AnimatedCopy tag="h1" animateOnScroll="true">
-            MY selects
+            Impact
           </AnimatedCopy>
-        </section> */}
+        </section>
 
-        {/* <section ref={homeWorkRef} className="home-work">
+        <section ref={homeWorkRef} className="home-work">
           <div className="home-work-list">
             {workItems.map((work, index) => (
               <Link
-                to="/Forkit-Community"
+                to="/work"
                 key={work.id}
                 className="home-work-item"
               >
@@ -197,9 +197,9 @@ const Home = () => {
               </Link>
             ))}
           </div>
-        </section> */}
+        </section>
 
-        {/* <Reviews /> */}
+        <Reviews />
 
         <section className="hobbies">
           <div className="hobby">
