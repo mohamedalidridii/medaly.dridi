@@ -7,8 +7,8 @@ import { gsap } from "gsap";
 const Menu = () => {
   const menuLinks = [
     { path: "/", label: "Home" },
-    // { path: "/work", label: "Work" },
-    // { path: "/contact", label: "Contact" },
+    { path: "/work", label: "Impact" },
+    { path: "/contact", label: "Contact" },
     // { path: "/faq", label: "FAQ" },
 { path: "/about", label: "About" },
   ];
@@ -115,7 +115,7 @@ const Menu = () => {
           ease: "power4.inOut",
         });
     };
-
+    
     createMenuBarAnimation();
 
     menuLinksAnimation.current = gsap

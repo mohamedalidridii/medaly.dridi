@@ -38,10 +38,10 @@ const Footer = () => {
             <span>&#8594;</span>
           </Link>
 
-          {/* <Link to="/contact" className="footer-nav-item">
+          <Link to="/contact" className="footer-nav-item">
             <span>Contact</span>
             <span>&#8594;</span>
-          </Link> */}
+          </Link>
 {/* 
           <Link to="/faq" className="footer-nav-item">
             <span>FAQ</span>

@@ -16,6 +16,7 @@ const Work = () => {
   const titleTextRef = useRef(null);
   const imageRef = useRef(null);
   const navigate = useNavigate();
+  const linkRef =useRef(null);
 
   const animateCarouselInfo = (newProject) => {
     const tl = gsap.timeline();
@@ -37,6 +38,7 @@ const Work = () => {
           if (descriptionTextRef.current) descriptionTextRef.current.remove();
           if (titleTextRef.current && titleTextRef.current.parentNode) {
             titleTextRef.current.parentNode.remove();
+          if (linkRef.current) linkRef.current.remove();
           }
           if (imageRef.current) imageRef.current.remove();
 
@@ -47,11 +49,12 @@ const Work = () => {
           const titleContainer = document.createElement("div");
           titleContainer.className = "project-title-container";
           titleContainer.style.cursor = "pointer";
-
+          const newLink = document.createElement("a");
+          newLink.textContent = activeProject.link
           const newTitleEl = document.createElement("h1");
           newTitleEl.textContent = newProject.title;
-
-          titleContainer.onclick = () => navigate("/sample-project");
+          console.log("1:", activeProject)
+          titleContainer.onclick = () => navigate(newLink.textContent);
 
           titleContainer.appendChild(newTitleEl);
 
@@ -66,6 +69,7 @@ const Work = () => {
           carouselDescriptionRef.current.appendChild(newDescriptionEl);
           carouselTitleRef.current.appendChild(titleContainer);
           workSliderImgRef.current.appendChild(newImageEl);
+          workSliderImgRef.current.appendChild(newLink)
 
           descriptionTextRef.current = newDescriptionEl;
           titleTextRef.current = newTitleEl;
@@ -100,8 +104,7 @@ const Work = () => {
     if (
       carouselDescriptionRef.current &&
       carouselTitleRef.current &&
-      workSliderImgRef.current
-    ) {
+      workSliderImgRef.current && activeProject.id==1   ) {
       descriptionTextRef.current =
         carouselDescriptionRef.current.querySelector("p");
 
@@ -115,8 +118,8 @@ const Work = () => {
 
         const newTitle = initialTitle.cloneNode(true);
         titleContainer.appendChild(newTitle);
-
-        titleContainer.onclick = () => navigate("/sample-project");
+        console.log("2:", activeProject)
+        titleContainer.onclick = () => navigate(activeProject.link);
 
         initialTitleLink.parentNode.replaceChild(
           titleContainer,
@@ -142,30 +145,25 @@ const Work = () => {
     <div className="page work">
       <div className="work-carousel">
         <div className="work-slider-img" ref={workSliderImgRef}>
-          <img src={activeProject.image} alt={activeProject.title} />
         </div>
 
-        <div className="work-items-preview-container">
-          {projects.map((project) => (
-            <div
-              key={project.id}
-              className={`work-item ${
-                activeProject.id === project.id ? "active" : ""
-              }`}
-              onClick={() => handleWorkItemClick(project)}
-            >
-              <img src={project.image} alt={project.title} />
-            </div>
-          ))}
-        </div>
+
 
         <div className="carousel-info">
-          <div className="carousel-description" ref={carouselDescriptionRef}>
-            <p className="primary sm">{activeProject.description}</p>
+          <div className="carousel-description">
+            <p className="primary sm">Speaker</p>
           </div>
-          <div className="carousel-title" ref={carouselTitleRef}>
-            <Link to="/sample-project">
-              <h1>{activeProject.title}</h1>
+          <div className="carousel-title">
+            <Link to="/Forkit-Community">
+              <h1 className="forkit">Fork it! Community</h1>
+            </Link>
+          </div>
+          <div className="carousel-description" >
+            <p className="primary sm">Tech Educator</p>
+          </div>
+          <div className="carousel-title">
+            <Link to="/Orbit-Event">
+              <h1 className="orbit">Orbit 1.0</h1>
             </Link>
           </div>
         </div>

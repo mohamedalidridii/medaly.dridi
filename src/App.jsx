@@ -10,7 +10,7 @@ import Project from "./pages/Project/Project";
 import About from "./pages/About/About";
 import FAQ from "./pages/FAQ/FAQ";
 import Contact from "./pages/Contact/Contact";
-
+import Orbit from "./pages/Orbit/Orbit"
 import { AnimatePresence } from "framer-motion";
 
 function ScrollToTop() {
@@ -39,7 +39,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/work" element={<Work />} />
-          <Route path="/sample-project" element={<Project />} />
+          <Route path="/Forkit-Community" element={<Project />} />
+          <Route path="/Orbit-Event" element={<Orbit />} />
         </Routes>
       </AnimatePresence>
     </>

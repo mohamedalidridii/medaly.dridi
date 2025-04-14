@@ -51,14 +51,21 @@
   width: 100%;
   padding: 1.25em;
 }
-
+.carousel-description{
+ margin-top: 30px; 
+}
 .carousel-description,
 .carousel-title {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   width: 100%;
 }
-
+.forkit{
+  color:hsl(65 100% 51% / 1) !important;
+}
+.orbit{
+  color: #756cb1 !important;
+}
 .carousel-title h1 {
   line-height: 1;
 }
