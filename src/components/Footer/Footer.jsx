@@ -11,12 +11,10 @@ const Footer = () => {
           <h4>
             Let’s Collaborate <br />
             </h4>
-
           <p className="secondary">
           From building bold websites to launching creative digital campaigns — I’m always open to collaborating on innovative projects. Let’s create something impactful together.
           </p>
             Get in Touch
-          </Link>
         </div>
 
         <div className="footer-nav">
