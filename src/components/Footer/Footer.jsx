@@ -10,14 +10,11 @@ const Footer = () => {
         <div className="footer-contact">
           <h4>
             Let’s Collaborate <br />
-            mohamedali.dridi<span>@</span>koyotec.digital
-          </h4>
+            
 
           <p className="secondary">
           From building bold websites to launching creative digital campaigns — I’m always open to collaborating on innovative projects. Let’s create something impactful together.
           </p>
-
-          <Link to="https://linktr.ee/medaly.dridi" className="btn">
             Get in Touch
           </Link>
         </div>
