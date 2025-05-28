@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h4>
             Let’s Collaborate <br />
-            
+            </h4>
 
           <p className="secondary">
           From building bold websites to launching creative digital campaigns — I’m always open to collaborating on innovative projects. Let’s create something impactful together.
