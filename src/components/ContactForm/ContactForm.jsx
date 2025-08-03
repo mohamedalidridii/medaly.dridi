@@ -49,9 +49,13 @@ const ContactForm = () => {
             <textarea type="text" rows={6} placeholder="Message" />
           </div> */}
 
-          <div className="form-item">
-          </div>
-        </div>
+          <div className="form-item">          
+            <Link to="https://linktr.ee/medaly.dridi" className="btn">
+                Get in Touch &rarr;
+            </Link>
+          </div>      
+      </div>
+        
       </div>
     </div>
   );
