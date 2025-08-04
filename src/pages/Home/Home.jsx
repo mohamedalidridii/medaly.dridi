@@ -204,7 +204,7 @@ const Home = () => {
         <section className="hobbies">
           <div className="hobby">
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-            CEO and Founder
+            CEO
             </AnimatedCopy>
           </div>
           <div className="hobby">
