@@ -13,7 +13,11 @@ module.exports = (req, res) => {
     return res.status(200).send(ascii);
   }
 
-  // Otherwise → return your Vite site
-  return res.redirect("/");
+// Otherwise → serve the real frontend (index.html from Vite build)
+  const indexPath = path.join(process.cwd(), "build", "index.html"); 
+  const html = fs.readFileSync(indexPath, "utf8");
+
+  res.setHeader("Content-Type", "text/html; charset=utf-8");
+  return res.status(200).send(html);
 };
 
