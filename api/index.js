@@ -3,8 +3,9 @@ const path = require("path");
 
 module.exports = (req, res) => {
   const ua = req.headers["user-agent"] || "";
-
-  // Detect curl, wget, or httpie
+  console.log("User-Agent:", ua);
+ 
+    // Detect curl, wget, or httpie
   if (/curl|wget|httpie/i.test(ua)) {
     const asciiPath = path.join(process.cwd(), "ascii.txt");
     const ascii = fs.readFileSync(asciiPath, "utf8");
