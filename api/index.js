@@ -1,24 +1,40 @@
-const fs = require("fs");
-const path = require("path");
+import fs from 'fs';
+import path from 'path';
 
-module.exports = (req, res) => {
-  const ua = req.headers["user-agent"] || "";
-  console.log("User-Agent:", ua);
- 
-    // Detect curl, wget, or httpie
-  if (/curl|wget|httpie/i.test(ua)) {
-    const asciiPath = path.join(process.cwd(), "ascii.txt");
-    const ascii = fs.readFileSync(asciiPath, "utf8");
+export default function handler(req, res) {
+  const userAgent = req.headers['user-agent'] || '';
+  
+  // Check if the request is from curl
+  if (userAgent.toLowerCase().includes('curl')) {
+    try {
+      // Read your ASCII file
+      const asciiPath = path.join(process.cwd(), 'ascii.txt');
+      const asciiContent = fs.readFileSync(asciiPath, 'utf8');
+      
+      // Set plain text content type
+      res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+      res.status(200).send(asciiContent);
+    } catch (error) {
+      res.status(500).send('ASCII art not found');
+    }
+  } else {
+    // For browsers, serve a simple redirect to your main site
+    // or you could serve HTML directly here
+    res.setHeader('Content-Type', 'text/html');
+    res.status(200).send(`
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta http-equiv="refresh" content="0;url=/index.html">
+        </head>
+        <body>
+          <p>Redirecting to portfolio...</p>
+        </body>
+      </html>
+    `);
+    res.writeHead(302, { Location: '/index.html' });
+    res.end(); 
 
-    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-    return res.status(200).send(ascii);
   }
-
-// Otherwise → serve the real frontend (index.html from Vite build)
-  const indexPath = path.join(process.cwd(), "build", "index.html"); 
-  const html = fs.readFileSync(indexPath, "utf8");
-
-  res.setHeader("Content-Type", "text/html; charset=utf-8");
-  return res.status(200).send(html);
-};
+}
 
