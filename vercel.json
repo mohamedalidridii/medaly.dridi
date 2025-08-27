@@ -1,3 +1,13 @@
 {
-  "rewrites": [{ "source": "/", "destination": "/api/index" }]
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.js" }   // root hits API
+  ],
+  "headers": [
+    {
+      "source": "/api/index.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
+  ]
 }
