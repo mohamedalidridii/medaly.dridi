@@ -77,6 +77,11 @@ Currently building amazing web experiences...
       }
       
       if (htmlContent) {
+        // Fix asset paths in HTML if needed
+        const fixedHtml = htmlContent.replace(
+          /(href|src)="\//g,
+          '$1="https://www.medaly.engineer/'
+        );
         res.setHeader('Content-Type', 'text/html');
         res.status(200).send(htmlContent);
       } else {
