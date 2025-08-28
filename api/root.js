@@ -1,7 +1,9 @@
 export default function handler(req, res) {
   const userAgent = req.headers['user-agent'] || '';
   
-  if (userAgent.toLowerCase().includes('curl')) {
+  console.log('API called with path:', req.url);
+  console.log('User agent:', userAgent);
+    if (userAgent.toLowerCase().includes('curl')) {
     const asciiContent = `       ▄▄  ▄▄  ▄▄▄▄     ▄▄▄   ▄▄▄▄▄ 
                   ▀▀  ▄▄▀ ▀ ▄              Welcome to Medaly Engineer
         ▀  ▀   ▀▀▀▀ ▄   ▄▄▄     ▄▄ ▀       Crafted by Mohamed Ali Dridi
