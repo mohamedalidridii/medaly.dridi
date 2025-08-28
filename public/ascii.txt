@@ -1,24 +1,22 @@
     ███╗   ███╗███████╗██████╗  █████╗ ██╗  ██╗   ██╗
-    ████╗ ████║██╔════╝██╔══██╗██╔══██╗██║  ╚██╗ ██╔╝
+    ████╗ ████║██╔════╝██╔══██╗██╔══██╗██║  ╚██╗ ██╔╝  
     ██╔████╔██║█████╗  ██║  ██║███████║██║   ╚████╔╝ 
     ██║╚██╔╝██║██╔══╝  ██║  ██║██╔══██║██║    ╚██╔╝  
     ██║ ╚═╝ ██║███████╗██████╔╝██║  ██║███████╗██║   
     ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝   
+    - Hey! new friend ? (I use Arch btw).
+    - Welcome to localhost community 
 
-
-
-  ┌─About───────────────────────────────┐ ┌─Socials───┬───────────────────────────┐
-  │                                     │ │           │                           │
-  │ Hi! I'm Ali, an IT engineer &       │ │ Instagram │ https://instagram.com/... │
-  │ content creator. On this domain     │ │ GitHub    │ https://github.com/...    │
-  │ you’ll find my projects, guides,    │ │ LinkedIn  │ https://linkedin.com/...  │
-  │ and experiments in tech.            │ │ Twitter   │ https://x.com/...         │
-  │                                     │ │           │                           │
-  └─────────────────────────────────────┘ └───────────┴───────────────────────────┘
+  ┌─About───────────────────────────────┐ ┌─Socials───┬──────────────────────────────────────────┐
+  │                                     │ │           │                                          │
+  │ Hi! I'm Med Ali Dridi, an engineer &│ │ Instagram │ https://instagram.com/medaly.dridi       │
+  │ content creator. On this domain     │ │ GitHub    │ https://github.com/mohamedalidridii      │
+  │ you’ll find my socials, guides,     │ │ LinkedIn  │ https://linkedin.com/in/med-ali-dridi    │
+  │ and experiments in tech.            │ │ Linktree  │ linktr.ee/medaly.dridi                   │
+  │                                     │ │           │                                          │
+  └─────────────────────────────────────┘ └───────────┴──────────────────────────────────────────┘
 
     Legend
                              
-    $ curl medaly.engineer           Get this page
-    $ curl medaly.engineer/projects  See my projects
-    $ curl medaly.engineer/json      Get JSON data
+    $ curl https://www.medaly.engineer           Get this page
 
