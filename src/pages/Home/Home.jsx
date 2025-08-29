@@ -143,7 +143,7 @@ const Home = () => {
 
           <div className="hero-header">
             <AnimatedCopy tag="h1" animateOnScroll={false} delay={0.7}>
-              MED ALY
+              Med Aly
             </AnimatedCopy>
             <AnimatedCopy tag="h1" animateOnScroll={false} delay={0.8}>
               Dridi
@@ -160,17 +160,20 @@ const Home = () => {
             <p className="primary sm">Creativity Meets Technology</p>
             <p className="primary sm">Open to Collaborations</p>
           </div>
-          <h2 ref={(el) => (titlesRef.current[0] = el)}>
-          I’m a digital creator who builds immersive web experiences through code and design.
+           <h2 ref={(el) => (titlesRef.current[0] = el)} className="font-mono text-white text-lg sm:text-xl md:text-2xl lg:text-3xl bg-gray-900 px-3 py-1 tracking-widest">
+     $      got $bash?
+</h2> 
+        <h2 ref={(el) => (titlesRef.current[1] = el)}
+      className="font-mono text-green-300 text-base sm:text-m md:text-m lg:text-l bg-gray-900 px-4 py-3 rounded-md border-l-4 border-green-400"
+      >
+      $  terminal lover?
           </h2>
-          <h2 ref={(el) => (titlesRef.current[1] = el)}>
-          Every project is driven by emotion, precision, and a strong creative vision.
-          </h2>
-          <h2 ref={(el) => (titlesRef.current[2] = el)}>
-          This portfolio reflects my passion for storytelling through cutting-edge technology.
-          </h2>
-        </section>
+      <h2 ref={(el) => (titlesRef.current[2] = el)} className="font-mono text-red-300 text-base sm:text-l md:text-l bg-black px-5 py-3 rounded border border-red-800 tracking-wider lowercase">
+  $     curl https://www.medaly.engineer
+</h2>  
 
+
+      </section>
         <section ref={stickyWorkHeaderRef} className="sticky-work-header">
           <AnimatedCopy tag="h1" animateOnScroll="true">
             Impact

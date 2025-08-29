@@ -30,6 +30,7 @@
 }
 
 .sticky-titles {
+  text-transform: lowercase;
   position: relative;
   width: 100vw;
   height: 100svh;
