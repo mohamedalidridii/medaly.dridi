@@ -11,6 +11,7 @@ import About from "./pages/About/About";
 import FAQ from "./pages/FAQ/FAQ";
 import Contact from "./pages/Contact/Contact";
 import Orbit from "./pages/Orbit/Orbit"
+import Localhost from "./pages/Localhost/Localhost"
 import { AnimatePresence } from "framer-motion";
 
 function ScrollToTop() {
@@ -40,6 +41,8 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/work" element={<Work />} />
           <Route path="/Forkit-Community" element={<Project />} />
+          
+          <Route path="/Localhost" element={<Localhost />} />
           <Route path="/Orbit-Event" element={<Orbit />} />
         </Routes>
       </AnimatePresence>

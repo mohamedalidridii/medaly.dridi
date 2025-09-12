@@ -63,6 +63,10 @@
 .forkit{
   color:hsl(65 100% 51% / 1) !important;
 }
+.localhost{
+  color: hsl(278 82% 87%/ 1) !important;
+
+}
 .orbit{
   color: #756cb1 !important;
 }

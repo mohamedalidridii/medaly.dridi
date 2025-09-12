@@ -150,10 +150,26 @@ const Work = () => {
 
 
         <div className="carousel-info">
+         
           <div className="carousel-description">
+	  
+            <p className="primary sm">Speaker</p>
+	  
+          </div>
+
+	  <div className="carousel-title">
+	  
+            <Link to="/Forkit-Community">
+	  
+              <h1 className="localhost">Localhost community</h1>
+	  
+            </Link>
+
+          </div>
+	  <div className="carousel-description">
             <p className="primary sm">Speaker</p>
           </div>
-          <div className="carousel-title">
+	  <div className="carousel-title">
             <Link to="/Forkit-Community">
               <h1 className="forkit">Fork it! Community</h1>
             </Link>
