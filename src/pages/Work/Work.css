@@ -10,8 +10,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   z-index: -1;
 }
 
@@ -20,7 +20,7 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 2em;
-  width: 75%;
+  width: 50%;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -58,14 +58,13 @@
 .carousel-title {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  width: 100%;
+  width: 80%;
+}
+.localhost{
+  color: hsl(50 84% 69%/ 1) !important;
 }
 .forkit{
   color:hsl(65 100% 51% / 1) !important;
-}
-.localhost{
-  color: hsl(278 82% 87%/ 1) !important;
-
 }
 .orbit{
   color: #756cb1 !important;
