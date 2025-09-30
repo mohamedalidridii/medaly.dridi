@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 import Menu from "./components/Menu/Menu";
-import { SpeedInsights } from "@vercel/speed-insights/vue"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Home from "./pages/Home/Home";
 import Work from "./pages/Work/Work";
 import Project from "./pages/Project/Project";
