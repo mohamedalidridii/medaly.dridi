@@ -60,17 +60,22 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   width: 80%;
 }
+
 .localhost{
   color: hsl(50 84% 69%/ 1) !important;
 }
+
 .forkit{
   color:hsl(65 100% 51% / 1) !important;
 }
+
 .orbit{
   color: #756cb1 !important;
 }
+
 .carousel-title h1 {
   line-height: 1;
+  font-size: 5rem;
 }
 
 .carousel-title h1,
@@ -87,4 +92,8 @@
     width: 100%;
     padding: 0 1.25em;
   }
+.carousel-title h1 {
+  line-height: 1;
+  font-size: 2rem;
+}
 }

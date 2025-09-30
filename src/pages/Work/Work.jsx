@@ -153,13 +153,13 @@ const Work = () => {
          
           <div className="carousel-description">
 	  
-            <p className="primary sm">Speaker</p>
+            <p className="primary sm">Community Founder</p>
 	  
           </div>
 
 	  <div className="carousel-title">
 	  
-            <Link to="/Forkit-Community">
+            <Link to="/LocalHost">
 	  
               <h1 className="localhost">Localhost community</h1>
 	  
