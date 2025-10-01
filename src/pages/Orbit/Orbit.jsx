@@ -37,7 +37,7 @@ const Orbit = () => {
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
               Overview
             </AnimatedCopy>
-            <AnimatedCopy tag="h4" animateOnScroll={true}>
+            <AnimatedCopy tag="h5" animateOnScroll={true}>
               Designed and delivered a comprehensive "Docker 101" workshop for
               55 participants at Orbit 1.0, organized by the IEEE INSAT Computer
               Society Chapter. Covered core Docker concepts, including Docker

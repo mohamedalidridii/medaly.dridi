@@ -37,7 +37,7 @@ const Project = () => {
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
               Overview
             </AnimatedCopy>
-            <AnimatedCopy tag="h4" animateOnScroll={true}>
+            <AnimatedCopy tag="h5" animateOnScroll={true}>
             Presented my research and development of a hybrid machine learning model (CNNs and RNNs) for the early detection of scleroderma.
             Shared the technical challenges and innovative solutions employed,
             including feature engineering and model validation strategies.

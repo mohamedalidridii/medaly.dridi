@@ -37,9 +37,8 @@ const Localhost = () => {
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
               Overview
             </AnimatedCopy>
-            <AnimatedCopy tag="h4" animateOnScroll={true}>
+            <AnimatedCopy tag="h5" animateOnScroll={true}>
               When I launched Localhost, it started as a simple idea: what if IT enthusiasts across the Arab world had a place to connect, share knowledge, and grow together?
-
 Today, that idea has become a thriving community of more than 25,000 members across Instagram, Discord, and TikTok.
 
 Localhost isn’t just about technology—it’s about people learning side by side, supporting one another, and breaking the isolation that often comes with studying or working in IT. Every discussion, workshop, and shared resource is a step toward building a culture of collaboration and empowerment in our region.
