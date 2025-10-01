@@ -12,14 +12,14 @@ import { Link } from "react-router";
 const Localhost = () => {
   return (
     <ReactLenis root>
-      <div className="page orbitC">
+      <div className="page localC">
         <section className="project-header">
           <AnimatedCopy
             delay={1}
             animateOnScroll={false}
             className="primary sm"
           >
-            Founder
+           community founder
           </AnimatedCopy>
           <AnimatedCopy tag="h2" delay={1}>
             Localhost community Tunisia
@@ -28,7 +28,7 @@ const Localhost = () => {
 
         <section className="project-banner-img">
           <div className="project-banner-img-wrapper">
-            <ParallaxImage src="/project/Orbit1.jpg" alt="" />
+            <ParallaxImage src="/project/ls.png" alt="" />
           </div>
         </section>
 
@@ -50,10 +50,10 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
 
           <div className="details">
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
-              Date
+              Date  
             </AnimatedCopy>
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              12 April 2025
+              
             </AnimatedCopy>
           </div>
 
@@ -62,25 +62,25 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
               Category
             </AnimatedCopy>
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              DevOps
+              Blog/Resources
             </AnimatedCopy>
           </div>
 
           <div className="details">
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
-              Conference
+              Ojectives
             </AnimatedCopy>
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              4 hours
+              Networking - Help - Ressources
             </AnimatedCopy>
           </div>
 
           <div className="details">
             <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
-              Skills
+              Sectors
             </AnimatedCopy>
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              Devops, Docker
+              IT Enthusiasts from All specialities
             </AnimatedCopy>
           </div>
         </section>
@@ -89,30 +89,7 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
           <div className="project-images-container">
             <div className="project-img">
               <div className="project-img-wrapper">
-                <ParallaxImage src="/project/orbit.jpg" alt="" />
-              </div>
-            </div>
-
-            <div className="project-img">
-              <div className="project-img-wrapper">
-                <ParallaxImage src="/project/orbit2.jpg" alt="" />
-              </div>
-            </div>
-            <div className="project-img">
-              <div className="project-img-wrapper">
-                <ParallaxImage src="/project/orbit3.jpg" alt="" />
-              </div>
-            </div>
-
-
-            <div className="project-img">
-              <div className="project-img-wrapper">
-                <Link to="https://www.instagram.com/p/DIZP1WNIdMK/">
-                  <ParallaxImage
-                    src="https://www.shutterstock.com/shutterstock/videos/3608709143/thumb/6.jpg?ip=x480"
-                    alt=""
-                  />
-                </Link>
+                <ParallaxImage src="/project/ls.png" alt="" />
               </div>
             </div>
           </div>
@@ -124,20 +101,7 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
               Website Event
             </AnimatedCopy>
             <Link
-              to="https://orbit.tn/"
-              className="underline"
-            >
-              <AnimatedCopy tag="h4" animateOnScroll={true}>
-                Click here
-              </AnimatedCopy>
-            </Link>
-          </div>
-          <div className="details">
-            <AnimatedCopy tag="p" animateOnScroll={true} className="primary sm">
-              LinkedIn Post
-            </AnimatedCopy>
-            <Link
-              to="https://www.linkedin.com/posts/med-ali-dridi_forkit-sclerodermaawareness-machinelearningforhealth-activity-7314603386123825152-gTfX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACRrszUBAUYGl0sjFSBJ3B_MX7a-cccx4yU"
+              to="https://www.localhost-community.tech"
               className="underline"
             >
               <AnimatedCopy tag="h4" animateOnScroll={true}>
@@ -157,7 +121,7 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
 
           <div className="next-project-img">
             <div className="next-project-img-wrapper">
-            <Link to="/Forkit-Community">
+            <Link to="/Orbit-Event">
               <ParallaxImage src="/project/fork-it4.jpg" alt="" />
               </Link>
 
@@ -165,7 +129,7 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
           </div>
 
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              Fork it! Community
+              Orbit 1.0
             </AnimatedCopy>
         </section>
       </div>
