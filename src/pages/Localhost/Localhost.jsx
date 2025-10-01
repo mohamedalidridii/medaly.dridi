@@ -122,7 +122,7 @@ For me, Localhost is more than a community—it’s proof that when we learn tog
           <div className="next-project-img">
             <div className="next-project-img-wrapper">
             <Link to="/Orbit-Event">
-              <ParallaxImage src="/project/fork-it4.jpg" alt="" />
+              <ParallaxImage src="/project/orbit.jpg" alt="" />
               </Link>
 
             </div>
