@@ -55,7 +55,9 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-
+.footer-header h1 {
+	font-size: 8rem !important;
+}
 .footer-header h1 {
   position: relative;
   left: -0.5vw;
@@ -92,6 +94,9 @@
     padding: 1em 0;
   }
 
+.footer-header h1 {
+	font-size: 4rem !important;
+}
   .footer {
     padding: 4em 1.25em 1.25em 1.25em;
     gap: 2em;

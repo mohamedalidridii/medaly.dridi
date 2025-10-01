@@ -26,7 +26,7 @@ const Footer = () => {
           </Link>
 
           <Link to="/work" className="footer-nav-item">
-            <span>Work</span>
+            <span>Impact</span>
             <span>&#8594;</span>
           </Link>
 

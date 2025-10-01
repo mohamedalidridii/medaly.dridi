@@ -12,8 +12,14 @@ const workList = [
     description: "Orbit 1.0",
     image: "/project/orbit.jpg",
     link: "/Orbit-Event",
+  }, 
+  {
+    id: 3,
+    title: "Community Founder",
+    description: "Localhost-Community",
+    image: "/project/ls.png",
+    link: "/LocalHost",
   },
-  
 ];
 
 export default workList;
