@@ -123,6 +123,7 @@
   aspect-ratio: 1;
   border: 1px dashed var(--fg);
   border-radius: 1em;
+  text-transform: uppercase !important;
 }
 
 @media (max-width: 1000px) {
