@@ -27,15 +27,22 @@ const About = () => {
         <section className="about-me-copy">
           <div className="about-me-copy-wrapper">
             <AnimatedCopy animateOnScroll={true} tag="h3">
-            I’m Med Ali — a digital creator and founder of KOYOTEC, a creative agency where design meets technology. I craft immersive web experiences that are visually striking, emotionally engaging, and built with precision.
+            I’m Med Ali — an IT Enthusiast and I use Arch btw... 
+	  I&apos;m the founder of KOYOTEC Digital Agency, a creative agency where design meets technology. 
+
             </AnimatedCopy>
 
             <AnimatedCopy animateOnScroll={true} tag="h3">
-            For me, building digital experiences isn't just about beautiful visuals — it's about emotion, clarity, and storytelling. I believe in using animation, interactivity, and creative code to create memorable user journeys.
+           	4 years ago, I made a life-altering decision.
+	  	I left my established corporate career to become my mother’s full-time caregiver.
+		I wanted to be there for her, to support her, to fight alongside her.
+		During the long, often sleepless nights, I found myself drawn to coding.
+	  	It became a way to process my grief,
+	  	to channel my frustration, and to find a sense of control in a situation that felt utterly uncontrollable.
+	  	I started building Koyotec, a Digital Agency born from a desire to create something positive out of pain.
             </AnimatedCopy>
 
             <AnimatedCopy animateOnScroll={true} tag="h3">
-            Each project is a new opportunity to innovate, inspire, and connect. Whether it's a portfolio, a brand site, or a digital campaign — I bring passion, detail, and a modern edge to every pixel.
             </AnimatedCopy>
           </div>
         </section>
