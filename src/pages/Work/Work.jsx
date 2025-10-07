@@ -153,6 +153,21 @@ const Work = () => {
          
           <div className="carousel-description">
 	  
+            <p className="primary sm">Community Partner</p>
+	  
+          </div>
+
+	  <div className="carousel-title">
+	  
+            <Link to="/oreilly">
+	  
+              <h1 className="oreilly">O&apos;Reilly®</h1>
+	  
+            </Link>
+
+          </div>
+          <div className="carousel-description">
+	  
             <p className="primary sm">Community Founder</p>
 	  
           </div>
