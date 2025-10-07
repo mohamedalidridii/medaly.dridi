@@ -6,11 +6,14 @@ import Menu from "./components/Menu/Menu";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Home from "./pages/Home/Home";
 import Work from "./pages/Work/Work";
+import Labs from "./pages/Labs/Labs";
 import Project from "./pages/Project/Project";
 import About from "./pages/About/About";
 import FAQ from "./pages/FAQ/FAQ";
 import Contact from "./pages/Contact/Contact";
 import Orbit from "./pages/Orbit/Orbit"
+import Oreily from "./pages/Oreily/Oreily"
+
 import Localhost from "./pages/Localhost/Localhost"
 import { AnimatePresence } from "framer-motion";
 
@@ -45,8 +48,12 @@ function App() {
           <Route path="/Forkit-Community" element={<Project />} />
           
           <Route path="/Localhost" element={<Localhost />} />
-          <Route path="/Orbit-Event" element={<Orbit />} />
-        </Routes>
+	  <Route path="/Orbit-Event" element={<Orbit />} />
+       
+	  <Route path="/Oreilly" element={<Oreily />} />
+          <Route path="/labs" element={<Labs />}/>
+	  <Route path="/labs" element={<Labs />}/>
+	</Routes>
       </AnimatePresence>
     </>
   );
