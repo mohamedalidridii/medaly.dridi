@@ -13,12 +13,12 @@ const projects = [
     image: "/project/orbit.jpg",
     link: "/Orbit-Event",
   },
-  // {
-  //   id: 3,
-  //   title: "The Stillness Project",
-  //   description: "Visual ode to silence",
-  //   image: "/work/work-3.jpg",
-  // },
+   {
+     id: 3,
+     title: "The Stillness Project",
+     description: "Visual ode to silence",
+     image: "/work/work-3.jpg",
+   },
   // {
   //   id: 4,
   //   title: "Chroma/City",

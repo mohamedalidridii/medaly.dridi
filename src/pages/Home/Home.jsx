@@ -217,7 +217,7 @@ const Home = () => {
           </div>
           <div className="hobby">
             <AnimatedCopy tag="h4" animateOnScroll={true}>
-              IT Student
+              IT Engineer
             </AnimatedCopy>
           </div>
           <div className="hobby">

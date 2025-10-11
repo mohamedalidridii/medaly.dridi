@@ -28,7 +28,7 @@ const Oreily = () => {
 
         <section className="project-banner-img">
           <div className="project-banner-img-wrapper">
-            <ParallaxImage src="/project/ls.png" alt="" />
+            <ParallaxImage src="/work/oreilly.png" alt="" />
           </div>
         </section>
 
@@ -82,9 +82,9 @@ const Oreily = () => {
         <section className="project-images">
           <div className="project-images-container">
             <div className="project-img">
-              <div className="project-img-wrapper">
-                <ParallaxImage src="/project/ls.png" alt="" />
-              </div>
+              <div className="project-img-wrapper linkedinPost">
+              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7370907787377315840?collapsed=1" height="603" width="504" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>
+		</div>
             </div>
           </div>
         </section>

@@ -14,10 +14,18 @@ const workList = [
     link: "/Orbit-Event",
   }, 
   {
-    id: 3,
+    id: 4,
     title: "Community Founder",
     description: "Localhost-Community",
     image: "/project/ls.png",
+    link: "/LocalHost",
+  },
+
+  {
+    id: 3,
+    title: "Community Partner",
+    description: "Oreilly&apos;'s Media",
+    image: "/work/oreilly.png",
     link: "/LocalHost",
   },
 ];

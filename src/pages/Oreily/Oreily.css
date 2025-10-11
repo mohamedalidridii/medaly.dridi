@@ -1,6 +1,3 @@
-.oreilly {
- background-color: #bde0fe !important;
-}
 .project-header {
   width: 100vw;
   height: 50svh;
@@ -11,6 +8,12 @@
   gap: 1.5em;
   padding-bottom: 3em;
   text-align: center;
+}
+.linkedinPost{
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 .underline{
   text-decoration: underline;
