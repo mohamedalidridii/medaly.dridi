@@ -1,5 +1,5 @@
 import workList from "../../data/workList";
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -22,8 +22,9 @@ const Home = () => {
   const titlesRef = useRef([]);
   const stickyWorkHeaderRef = useRef(null);
   const homeWorkRef = useRef(null);
-
-  useEffect(() => {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+ const heroImage = isDesktop ? '/home/medaly1.jpg' : '/home/medaly.jpg';
+	useEffect(() => {
     const handleResize = () => {
       ScrollTrigger.refresh();
     };
@@ -138,8 +139,8 @@ const Home = () => {
       <div className="page home">
         <section className="hero">
           <div className="hero-img">
-            <img src="/home/medaly.jpg" alt="" />
-          </div>
+	    <img src={heroImage} alt="Med Aly Dridi" />
+	  </div>
 
           <div className="hero-header">
             <AnimatedCopy tag="h1" animateOnScroll={false} delay={0.7}>
