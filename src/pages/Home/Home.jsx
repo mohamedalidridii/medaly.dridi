@@ -23,7 +23,7 @@ const Home = () => {
   const stickyWorkHeaderRef = useRef(null);
   const homeWorkRef = useRef(null);
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
- const heroImage = isDesktop ? '/home/medaly1.jpg' : '/home/medaly.jpg';
+ const heroImage = isDesktop ? './home/medaly1.jpg' : './home/medaly.jpg';
 	useEffect(() => {
     const handleResize = () => {
       ScrollTrigger.refresh();
