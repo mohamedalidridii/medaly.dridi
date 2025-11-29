@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-
+import { Preloader } from "./components/Preloader/Preloader";
 import Menu from "./components/Menu/Menu";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Home from "./pages/Home/Home";
@@ -34,7 +34,9 @@ function App() {
 
   return (
     <>
-
+	
+	
+      <Preloader />
       <ScrollToTop />
       <Menu />
       <SpeedInsights />
