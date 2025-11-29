@@ -36,7 +36,6 @@ function App() {
     <>
 	
 	
-      <Preloader />
       <ScrollToTop />
       <Menu />
       <SpeedInsights />
